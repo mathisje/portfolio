@@ -1,28 +1,94 @@
-.App {
-  text-align: center;
+
+html { 
+  background: url(goldenGate.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.about {
+	margin: 15px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.add-remove-button {
+	height: 32px;
+	width: 32px;
+	min-width: 32px;
+	font-size: 24px;
+	margin: 5px 0px 0px 0px;
+	text-align: center;
+	line-height: 25px;
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 16px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.background {
+	width: 100%;
+	height: 100%;
 }
 
-.App-intro {
-  font-size: large;
+.container {
+	display: flex;
+	margin: 10px;
+	border: 0.5px solid #333;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.content-container {
+	//width: 100%;
+}
+
+.empty-tab {
+	border-top: 0.5px solid #333;
+	border-bottom: 0.5px solid #999;
+	width: 100%;
+}
+
+.profile-container {
+	margin: 15px;
+}
+
+.profile-picture {
+	border-radius: 50%;
+	object-fit: cover;
+	width: 80px;
+	height: 100px;
+}
+
+.tab-container {
+	margin: 10px;
+	border: 0.5px solid #333;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-top: none;
+}
+
+.tab-header {
+  background-color: #999;
+  cursor: pointer;
+  height: 25px;
+  min-width: 80px;
+  padding: 0px 20px 10px 20px;
+  color: #fff;
+  border: 0.5px solid #333;
+  border-left: none;
+}
+
+.tab-header-selected {
+  cursor: pointer;
+  height: 25px;
+  min-width: 80px;
+  padding: 0px 20px 10px 20px;
+  border: 0.5px solid #333;
+  border-left: none;
+  border-bottom: none;
+}
+
+.tab-row-class {
+	display: flex;
+}
+
+.tab-title {
+  font-size: 1em;
 }
