@@ -7,7 +7,8 @@ class AboutMe extends Component {
       <div className={this.props.containerClass}>
         <div>
           I am a full stack software developer with four years of experience shipping production code in fast-paced agile environments.
-          I am a dedicated technologist, an adept problem-solver, and a lifelong learner.
+          I am a dedicated technologist, an adept problem solver, a creative thinker, and a lifelong learner.
+          In my current role, I specialize in responsive web development with ReactJS.
           At university, I studied linguistics and both classical and modern languages,
           and I developed particular interests in semantics, computational linguistics, and historical linguistics.
           I play strategy games competitively in my free time, which has driven me to develop a passion for games, game theory, and artificial intelligence.
