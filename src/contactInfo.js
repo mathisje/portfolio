@@ -11,7 +11,7 @@ class ContactInfo extends Component {
                className='profile-picture'
                alt='profile' />
         </div>
-        <div className='profile-container'>
+        <div className='profile-text-container'>
           <div>Jeffrey Mathis</div>
           <div>Full Stack Developer</div>
           <div>(904) 718-8503</div>

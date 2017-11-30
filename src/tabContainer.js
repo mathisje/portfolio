@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-
 import TabHeader from "./tabHeader";
 
 class TabContainer extends Component {

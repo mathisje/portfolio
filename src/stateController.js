@@ -3,6 +3,9 @@ import './App.css';
 
 import TabContainer from "./tabContainer";
 import ContactInfo from "./contactInfo";
+import AboutMe from "./aboutMe";
+import Resume from "./resume";
+import Projects from "./projects";
 
 class StateController extends Component {
   constructor() {
@@ -25,7 +28,7 @@ class StateController extends Component {
       title: 'About Me',
       content: (
         <div key={0}>
-          <p>lorem ipsum</p>
+          <AboutMe containerClass='paragraph' />
         </div>
       )
     };
@@ -33,7 +36,7 @@ class StateController extends Component {
       title: 'Resume',
       content: (
         <div key={1}>
-          <p>ipsum lorem</p>
+          <Resume />
         </div>
       )
     };
@@ -41,7 +44,7 @@ class StateController extends Component {
       title: 'Projects',
       content: (
         <div key={1}>
-          <p>proj lorem</p>
+          <Projects containerClass='projects' />
         </div>
       )
     };
